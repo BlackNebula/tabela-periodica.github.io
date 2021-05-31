@@ -134,9 +134,21 @@ lantanideos.forEach(function(lantanideo){
 
 actinidios.forEach(function(actinidio){
     actinidio.onmouseover = () =>{
-        txtTh.style.background = '#DCADD6'
+        txtTh.style.bac = () =>{
+        txtTh.style.backkground = '#DCADD6'
     }
-    actinidio.onmouseout = () =>{
-        txtTh.style.background = '#e7e6e6'
+    actinidio.onmouseoutground = '#e7e6e6'
     }
 })
+
+function mudar(x){
+    var elemento = document.getElementById('elemento').innerHTML;
+    var div = document.getElementById("txt");
+        if (x == 1){
+        div.innerHTML = "O Hidrogênio é o elemento mais abundante do universo e é o elemento básico de toda e qualquer estrela. Cerca de 90% dos átomos presentes no universo são átomos de Hidrogênio.";
+                }
+        if (x == 2){
+        div.innerHTML = "O elemento hélio é um gás nobre, pertencente a família 0 ou 8A da tabela periódica, é inerte, ou seja, não sofre reação química, segue a regra do dueto (é estável com 2 elétrons em sua última camada de valência), possui 8 isótopos, porém desprezíveis praticamente, pois cerca de 99,999% do hélio é o isótopo estável 4He.";
+                }
+    
+}
